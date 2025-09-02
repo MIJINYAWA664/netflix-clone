@@ -1,0 +1,25 @@
+.watch-page {
+    background: black;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  
+  .back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+    z-index: 10;
+  }
+  
+  .back-btn:hover {
+    background: rgba(229, 9, 20, 0.9); /* Netflix red */
+  }
+  

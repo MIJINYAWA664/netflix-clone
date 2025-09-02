@@ -1,17 +1,37 @@
 .movie-details {
-    padding: 60px 30px;
-    color: white;
-    max-width: 900px;
-    margin: auto;
-  }
-  
-  .movie-details h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .movie-details img {
-    margin-top: 20px;
-    border-radius: 10px;
-  }
-  
+  color: white;
+  padding: 20px;
+}
+
+.trailer-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.movie-backdrop {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-info {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.movie-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.movie-info p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.overview {
+  margin-top: 15px;
+  font-size: 1.1rem;
+}

@@ -1,11 +1,13 @@
 import React from "react";
 import Banner from "../components/Banner";
 import Row from "../components/Row";
+import ContinueWatchingRow from "../components/ContinueWatchingRow";
 import { requests } from "../Api";
 
 export default function Home() {
   return (
     <div className="home">
+      <ContinueWatchingRow />
       <Banner />
       <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals} />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
