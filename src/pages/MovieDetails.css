@@ -1,0 +1,17 @@
+.movie-details {
+    padding: 60px 30px;
+    color: white;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .movie-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .movie-details img {
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  

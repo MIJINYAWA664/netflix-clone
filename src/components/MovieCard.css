@@ -1,0 +1,14 @@
+.movie-card {
+    max-height: 200px;
+    object-fit: contain;
+    margin-right: 10px;
+    border-radius: 4px;
+    transition: transform 450ms;
+    cursor: pointer;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  
